@@ -1,0 +1,26 @@
+{
+  "name": "genpark-cart-roi-margin-simulator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Bundled package discount coupon ROI margins simulator.",
+  "author": "genpark",
+  "category": "pricing",
+  "tags": [
+    "roi",
+    "pricing"
+  ],
+  "inputs": {
+    "revenue": {
+      "type": "number"
+    },
+    "cost": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "roi_ratio": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
